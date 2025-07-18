@@ -1,0 +1,32 @@
+Learn about what is a micro-service. 
+Ans. In micro-service, multiple functionalities are thee and for each functionality, separate code bases is there. . Al large or complex software is build into small losely module which can connect with each other using the API. Monolithic is the opposite of microservice. 
+
+About what is a web service.
+Web services are an APIs wrapped in HTTP. Web service needs a network. All API are webserive but vice versa not true. For example screen capture extension is a API because it does not internet to capture the screenshot
+
+What is Cookies?
+These are the small temporary files when you request the page through internet. These files are created by the browser.
+What is Server? 
+These are the physical system which is dedicated to serve the client request. Bases on the service, it could be a file server, web server, database server, home media server, print server etc.
+What is LocalHost 
+These are your own system. For example developer will perform unit testing on their local system before deploye the changes
+What is Domain? 
+Theses are the human understandable name of a website. Ex. www.google.com.It can be divided into top level and second level domain and sub domain.
+Google: second level
+.com: top level
+www.tutorial.ninja.com : tutorial is the sub domain.
+what is Endpoint in the URL? 
+Endpoints are the specific url which are located on the server side. URL is made up of base url and endpoint. Using the end point, we can access the resource from the server
+What is the Difference between HTTP and HTTPS? 
+HTTP stands for hyperText transfer protocol. HTTPs is the encrypted form of the HTTP using the TLS/SSL certificates. In HTTPS, more security are there
+What is CRUD? and which methods are used for this and give some details about those methods. 
+CRUD stands for create, read, update and delete. For create we have post method. For read, we have get method. For update, we have put and patch method. For delete, we have delete method.
+What is Payload, Header, Status code?
+Payload means: This is the actual data that we send while sending the request. For exmaple, you want to create  a FB post then we need to send the file/txt which you want to post so this comes under payload
+Header: These are the extra information that needs to send along with the payload. For example content type, header, cookies, authentication etc.
+Status code: When you hit the request and request reaches to the server using the API . Server give some response to the client with the status code.
+What is Load Balancer? (Research about this)
+Load balancer are used on the server side to handle the traffic. If  We have a huge trafic then using load balancer we can distribute the traffic on the differnet server. Ex, amazon use the load balancer to handle the million of user at a time. 
+What is Client and Server?
+Client: The system from which we request any resoure from the server , is called client.
+Server: This is also a physicall system where all the information/data stored that we can request from the client system,
